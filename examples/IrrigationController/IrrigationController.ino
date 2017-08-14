@@ -874,10 +874,6 @@ void goGetValveTimes()
       }
     }
     valveUpdateTime = millis();
-    valveIndex++;
-    if (valveIndex > NUMBER_OF_VALVES)
-    {
-      valveIndex = 1;
-    }
+    
   }
 }
